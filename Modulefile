@@ -1,5 +1,5 @@
 name    'nastechnology-registry'
-version '0.1.3'
+version '0.1.4'
 source 'git://github.com/nastechnology/puppetlabs-registry.git'
 author 'nastechnology'
 license 'Apache License, Version 2.0'

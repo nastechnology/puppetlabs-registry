@@ -33,7 +33,6 @@ module ProviderBase
           :hkcr => Win32::Registry::HKEY_CLASSES_ROOT,
           :hklm => Win32::Registry::HKEY_LOCAL_MACHINE,
           :hkcc => Win32::Registry::HKEY_CURRENT_CONFIG,
-	  :hkcu => Win32::Registry::HKEY_CURRENT_USER,
         }
       end
     end

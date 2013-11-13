@@ -97,9 +97,8 @@ module Registry
                 :hkcr
               when /hkey_current_config/, /hkcc/
                 :hkcc
-              when /hkey_current_user/, /hkcu/
-		:hkcu
-              when /hkey_users/, /hku/,
+              when /hkey_current_user/, /hkcu/,
+                /hkey_users/, /hku/,
                 /hkey_performance_data/,
                 /hkey_performance_text/,
                 /hkey_performance_nlstext/,
